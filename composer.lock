@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "d733e50b094eb66f245b228d7a684b70",
+    "hash": "6f14f012d7b4d2c904c7c6913d7ae6e0",
     "packages": [
         {
             "name": "composer/installers",
@@ -736,6 +737,38 @@
             "time": "2014-03-20 08:37:11"
         },
         {
+            "name": "flowpack/snippets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khuppenbauer/Flowpack.Snippets.git",
+                "reference": "e7370f5b2c9cd9e9c7945d9d3d78c6a2d9c92e5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khuppenbauer/Flowpack.Snippets/zipball/e7370f5b2c9cd9e9c7945d9d3d78c6a2d9c92e5e",
+                "reference": "e7370f5b2c9cd9e9c7945d9d3d78c6a2d9c92e5e",
+                "shasum": ""
+            },
+            "require": {
+                "flowpack/elasticsearch": "*",
+                "mapseven/markdown": "*",
+                "typo3/neos": "*"
+            },
+            "require-dev": {
+                "fabpot/goutte": "~1.0.6"
+            },
+            "type": "typo3-flow-plugin",
+            "autoload": {
+                "psr-0": {
+                    "Flowpack\\Snippets": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Add description here",
+            "time": "2014-05-26 18:55:28"
+        },
+        {
             "name": "imagine/imagine",
             "version": "dev-master",
             "source": {
@@ -786,6 +819,142 @@
                 "image processing"
             ],
             "time": "2013-07-10 17:25:36"
+        },
+        {
+            "name": "mapseven/markdown",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khuppenbauer/MapSeven.Markdown.git",
+                "reference": "3cb8f77a636450aac00e8078448e8cc003ef27b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khuppenbauer/MapSeven.Markdown/zipball/3cb8f77a636450aac00e8078448e8cc003ef27b4",
+                "reference": "3cb8f77a636450aac00e8078448e8cc003ef27b4",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "MapSeven\\Markdown": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "PageDown Integration in TYPO3 Flow",
+            "time": "2014-05-28 19:15:11"
+        },
+        {
+            "name": "mapseven/neos-frontendusermanager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khuppenbauer/MapSeven.Neos.FrontendUserManager.git",
+                "reference": "5bb08518b866a6b75e4b046c98c2311418bc5b82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khuppenbauer/MapSeven.Neos.FrontendUserManager/zipball/5bb08518b866a6b75e4b046c98c2311418bc5b82",
+                "reference": "5bb08518b866a6b75e4b046c98c2311418bc5b82",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/neos": "*"
+            },
+            "type": "typo3-flow-plugin",
+            "autoload": {
+                "psr-0": {
+                    "MapSeven\\Neos\\FrontendUserManager": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Simple Frontend User Management with Registration and Login",
+            "time": "2014-05-18 17:06:11"
+        },
+        {
+            "name": "mapseven/neos-snippets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khuppenbauer/MapSeven.Neos.Snippets.git",
+                "reference": "003b41cb2552e920cba5c813b880b43f23916dd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khuppenbauer/MapSeven.Neos.Snippets/zipball/003b41cb2552e920cba5c813b880b43f23916dd1",
+                "reference": "003b41cb2552e920cba5c813b880b43f23916dd1",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/neos": "*",
+                "typo3/neos-nodetypes": "*"
+            },
+            "type": "typo3-flow-site",
+            "autoload": {
+                "psr-0": {
+                    "MapSeven\\Neos\\Snippets": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Add description here",
+            "time": "2014-05-28 19:29:18"
+        },
+        {
+            "name": "ruflin/elastica",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ruflin/Elastica.git",
+                "reference": "c622ccf20a5583015d1e6c76d262d52adb5a770d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ruflin/Elastica/zipball/c622ccf20a5583015d1e6c76d262d52adb5a770d",
+                "reference": "c622ccf20a5583015d1e6c76d262d52adb5a770d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "munkie/elasticsearch-thrift-php": "1.4.*",
+                "phpunit/phpunit": "4.1.*",
+                "psr/log": "~1.0",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "Allow using guzzle 4.x as the http transport (requires php 5.4)",
+                "monolog/monolog": "Logging request",
+                "munkie/elasticsearch-thrift-php": "Allow using thrift transport",
+                "psr/log": "for logging"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Elastica": "lib/",
+                    "Elastica\\Test": "test/lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Ruflin",
+                    "homepage": "http://ruflin.com/"
+                }
+            ],
+            "description": "Elasticsearch Client",
+            "homepage": "http://elastica.io/",
+            "keywords": [
+                "client",
+                "search"
+            ],
+            "time": "2014-06-10 21:03:06"
         },
         {
             "name": "symfony/console",
@@ -973,7 +1142,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "b2653fda712684568cbc5c3857a96a0b792627a5"
+                "reference": "49f6f3a56cf7ce11cb2af4697df3bba0ffa0c3d4"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -1005,7 +1174,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2014-05-22 12:47:32"
+            "time": "2014-05-26 19:17:26"
         },
         {
             "name": "typo3/fluid",
@@ -1134,7 +1303,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Neos.git",
-                "reference": "79682d2982cb70de369e69f81786f3d89758f77e"
+                "reference": "cce021ed33df124fff07996c53f226708182836e"
             },
             "require": {
                 "typo3/flow": "*",
@@ -1163,7 +1332,7 @@
                 "GPL-3.0+"
             ],
             "description": "The next generation of the popular open-source CMS.",
-            "time": "2014-05-22 11:56:53"
+            "time": "2014-05-27 08:20:29"
         },
         {
             "name": "typo3/neos-kickstarter",
@@ -1197,7 +1366,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Neos.NodeTypes.git",
-                "reference": "b8e9a943135e9896c64dc31df4eb7f3648d718d5"
+                "reference": "f06a1a28345033578eee5562c81508525d2a1570"
             },
             "require": {
                 "typo3/neos": "*"
@@ -1213,7 +1382,7 @@
                 "GPL-3.0+"
             ],
             "description": "Node type configuration for TYPO3 Neos",
-            "time": "2014-04-08 21:51:46"
+            "time": "2014-05-26 08:13:37"
         },
         {
             "name": "typo3/party",
@@ -1295,7 +1464,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.TYPO3CR.git",
-                "reference": "31389ff9e8108e1b7a096d738e9898360558cfab"
+                "reference": "6caee3213e61b0bbbc151e3fcd36524aa43eabac"
             },
             "require": {
                 "typo3/flow": "*"
@@ -1310,7 +1479,7 @@
             "license": [
                 "GPL-3.0+"
             ],
-            "time": "2014-05-23 10:01:21"
+            "time": "2014-05-26 09:13:53"
         },
         {
             "name": "typo3/typoscript",
@@ -1339,6 +1508,52 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "embed/embed",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oscarotero/Embed.git",
+                "reference": "3365a9e193abd1356c24bd2ebfbd4730d5c926f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oscarotero/Embed/zipball/3365a9e193abd1356c24bd2ebfbd4730d5c926f6",
+                "reference": "3365a9e193abd1356c24bd2ebfbd4730d5c926f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Embed": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oscar Otero",
+                    "email": "oom@oscarotero.com",
+                    "homepage": "http://oscarotero.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP library to retrieve page info using oembed, opengraph, etc",
+            "homepage": "https://github.com/oscarotero/Embed",
+            "keywords": [
+                "embed",
+                "embedly",
+                "oembed",
+                "opengraph",
+                "twitter cards"
+            ],
+            "time": "2014-05-10 08:09:41"
+        },
         {
             "name": "fabpot/goutte",
             "version": "v1.0.6",
@@ -2297,6 +2512,33 @@
             "time": "2014-05-23 14:36:49"
         },
         {
+            "name": "ttree/oembed",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dfeyer/Ttree.Oembed.git",
+                "reference": "266d6fd21da8e2a26b33d0cf1a99bbffb0333096"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dfeyer/Ttree.Oembed/zipball/266d6fd21da8e2a26b33d0cf1a99bbffb0333096",
+                "reference": "266d6fd21da8e2a26b33d0cf1a99bbffb0333096",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Ttree\\Oembed": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "oEmbed utility package for TYPO3 Flow & Fluid with support for TYPO3 Neos",
+            "time": "2014-03-03 14:24:59"
+        },
+        {
             "name": "typo3/buildessentials",
             "version": "dev-master",
             "source": {
@@ -2327,7 +2569,10 @@
         "typo3/neos": 20,
         "typo3/neos-nodetypes": 20,
         "typo3/neos-kickstarter": 20,
-        "flowpack/elasticsearch": 20,
+        "mapseven/neos-snippets": 20,
+        "flowpack/snippets": 20,
+        "mapseven/neos-frontendusermanager": 20,
+        "ruflin/elastica": 20,
         "typo3/buildessentials": 20,
         "flowpack/behat": 20
     },

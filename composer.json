@@ -9,8 +9,8 @@
     "require": {
         "typo3/neos": "dev-master",
         "typo3/neos-nodetypes": "dev-master",
-        "mapseven/neos-snippets": "dev-master",
         "typo3/neos-kickstarter": "dev-master",
+        "mapseven/neos-snippets": "dev-master",
         "flowpack/snippets": "dev-master",
         "mapseven/neos-frontendusermanager": "dev-master"
     },
@@ -18,9 +18,7 @@
         "typo3/buildessentials": "dev-master",
         "mikey179/vfsstream": "1.2.*",
         "phpunit/phpunit": "3.7.*",
-        "flowpack/behat": "dev-master",
-        "fabpot/goutte": "~1.0.6"
-
+        "flowpack/behat": "dev-master"
     },
     "minimum-stability": "dev",
     "suggest": {
