@@ -2,6 +2,12 @@
     "name": "mapseven/distribution-snippets",
     "description" : "TYPO3 Neos Base Distribution",
     "license": "GPL-3.0+",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/khuppenbauer/Flowpack.ElasticSearch.git"
+        }
+    ],
     "config": {
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
