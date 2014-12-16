@@ -13,18 +13,20 @@
         "bin-dir": "bin"
     },
     "require": {
-        "typo3/neos": "dev-master",
-        "typo3/neos-nodetypes": "dev-master",
-        "typo3/neos-kickstarter": "dev-master",
+        "typo3/neos": "1.2.*",
+        "typo3/neos-nodetypes": "1.2.*",
+        "typo3/neos-kickstarter": "1.2.*",
         "mapseven/neos-snippets": "dev-master",
         "flowpack/snippets": "dev-master",
-        "mapseven/neos-frontendusermanager": "dev-master"
+        "doctrine/migrations": "@dev",
+        "typo3/flow": "2.3.*"
     },
     "require-dev": {
-        "typo3/buildessentials": "dev-master",
-        "mikey179/vfsstream": "1.2.*",
-        "phpunit/phpunit": "3.7.*",
-        "flowpack/behat": "dev-master"
+        "typo3/buildessentials": "2.3.*",
+        "mikey179/vfsstream": "1.4.*",
+        "phpunit/phpunit": "4.3.*",
+        "flowpack/behat": "dev-master",
+        "typo3-ci/typo3flow": "dev-master"
     },
     "minimum-stability": "dev",
     "suggest": {
