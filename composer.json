@@ -1,11 +1,26 @@
 {
     "name": "mapseven/distribution-snippets",
-    "description" : "TYPO3 Neos Base Distribution",
+    "description" : "MapSeven Neos Distribution",
     "license": "GPL-3.0+",
+    "support": {
+        "email": "neos@typo3.org",
+        "irc": "irc://irc.freenode.org/typo3-neos",
+        "forum": "http://forum.typo3.org/index.php/f/121/",
+        "issues": "https://jira.typo3.org/",
+        "source": "https://git.typo3.org/"
+    },
     "repositories": [
         {
             "type": "git",
             "url": "https://github.com/khuppenbauer/Flowpack.ElasticSearch.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/khuppenbauer/Flowpack.Neos.FrontendUserManager.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/khuppenbauer/MapSeven.Neos.Metronic.git"
         }
     ],
     "config": {
@@ -13,20 +28,34 @@
         "bin-dir": "bin"
     },
     "require": {
-        "typo3/neos": "1.2.*",
-        "typo3/neos-nodetypes": "1.2.*",
-        "typo3/neos-kickstarter": "1.2.*",
-        "mapseven/neos-snippets": "dev-master",
+        "typo3/neos": "dev-master",
+        "typo3/neos-nodetypes": "dev-master",
+        "typo3/neos-kickstarter": "dev-master",
         "flowpack/snippets": "dev-master",
+        "mapseven/neos-metronic": "dev-master",
+        "flowpack/neos-frontendusermanager": "dev-master",
+
         "doctrine/migrations": "@dev",
-        "typo3/flow": "2.3.*"
+
+        "typo3/eel": "@dev",
+        "typo3/flow": "@dev",
+        "typo3/fluid": "@dev",
+        "typo3/party": "@dev",
+        "typo3/kickstart": "@dev",
+        "typo3/neos-seo": "@dev",
+        "typo3/imagine": "@dev",
+        "typo3/media": "@dev",
+        "typo3/twitter-bootstrap": "@dev",
+        "typo3/form": "@dev",
+        "typo3/setup": "@dev",
+        "typo3/typo3cr": "@dev",
+        "typo3/typoscript": "@dev"
     },
     "require-dev": {
-        "typo3/buildessentials": "2.3.*",
+        "typo3/buildessentials": "dev-master",
         "mikey179/vfsstream": "1.4.*",
-        "phpunit/phpunit": "4.3.*",
-        "flowpack/behat": "dev-master",
-        "typo3-ci/typo3flow": "dev-master"
+        "phpunit/phpunit": "4.5.*",
+        "flowpack/behat": "dev-master"
     },
     "minimum-stability": "dev",
     "suggest": {
