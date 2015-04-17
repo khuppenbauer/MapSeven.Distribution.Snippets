@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1da6c2cce9bf0968cceb02a2f2ea2796",
+    "hash": "3eee0fe16d5b43dcc1dec6ab7c1300e4",
     "packages": [
         {
             "name": "Flowpack/neos-frontendusermanager",
@@ -163,16 +163,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.2.3",
+            "version": "v1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4"
+                "reference": "b5202eb9e83f8db52e0e58867e0a46e63be8332e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/eeda578cbe24a170331a1cfdf78be723412df7a4",
-                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/b5202eb9e83f8db52e0e58867e0a46e63be8332e",
+                "reference": "b5202eb9e83f8db52e0e58867e0a46e63be8332e",
                 "shasum": ""
             },
             "require": {
@@ -227,20 +227,20 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2014-12-20 20:49:38"
+            "time": "2014-12-23 22:40:37"
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.4.0",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "2346085d2b027b233ae1d5de59b07440b9f288c8"
+                "reference": "c9eadeb743ac6199f7eec423cb9426bc518b7b03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/2346085d2b027b233ae1d5de59b07440b9f288c8",
-                "reference": "2346085d2b027b233ae1d5de59b07440b9f288c8",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/c9eadeb743ac6199f7eec423cb9426bc518b7b03",
+                "reference": "c9eadeb743ac6199f7eec423cb9426bc518b7b03",
                 "shasum": ""
             },
             "require": {
@@ -251,13 +251,13 @@
             },
             "require-dev": {
                 "phpunit/phpunit": ">=3.7",
-                "predis/predis": "~0.8",
+                "predis/predis": "~1.0",
                 "satooshi/php-coveralls": "~0.6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev"
+                    "dev-master": "1.5.x-dev"
                 }
             },
             "autoload": {
@@ -297,24 +297,27 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-01-15 20:38:55"
+            "time": "2015-04-15 00:11:59"
         },
         {
             "name": "doctrine/collections",
-            "version": "v1.2",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "b99c5c46c87126201899afe88ec490a25eedd6a2"
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/b99c5c46c87126201899afe88ec490a25eedd6a2",
-                "reference": "b99c5c46c87126201899afe88ec490a25eedd6a2",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
             },
             "type": "library",
             "extra": {
@@ -333,17 +336,6 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/",
-                    "role": "Creator"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com",
-                    "homepage": "http://www.instaclick.com"
-                },
-                {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
                 },
@@ -352,10 +344,16 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
                     "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
-                    "role": "Developer of wrapped JMSSerializerBundle"
+                    "email": "schmittjoh@gmail.com"
                 }
             ],
             "description": "Collections Abstraction library",
@@ -365,7 +363,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2014-02-03 23:07:43"
+            "time": "2015-04-14 22:21:58"
         },
         {
             "name": "doctrine/common",
@@ -892,12 +890,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/khuppenbauer/Flowpack.Snippets.git",
-                "reference": "3446a6243c31c1be8f1b835697d0dc3ba1814b6f"
+                "reference": "e27a716c8d0ae5d525571cc0fb6c322d75a9c71f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/khuppenbauer/Flowpack.Snippets/zipball/3446a6243c31c1be8f1b835697d0dc3ba1814b6f",
-                "reference": "3446a6243c31c1be8f1b835697d0dc3ba1814b6f",
+                "url": "https://api.github.com/repos/khuppenbauer/Flowpack.Snippets/zipball/e27a716c8d0ae5d525571cc0fb6c322d75a9c71f",
+                "reference": "e27a716c8d0ae5d525571cc0fb6c322d75a9c71f",
                 "shasum": ""
             },
             "require": {
@@ -917,7 +915,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "TYPO3 Neos Plugin for Snippets",
-            "time": "2015-04-08 18:29:51"
+            "time": "2015-04-17 18:41:10"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -1262,7 +1260,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/khuppenbauer/MapSeven.Neos.Metronic.git",
-                "reference": "e37fafbf16a7e6055e1aa9f938fb9d20719d8627"
+                "reference": "322650a51a80924fb5e45a6559f55bb9f5ec2f69"
             },
             "require": {
                 "typo3/neos": "*",
@@ -1275,7 +1273,7 @@
                 }
             },
             "description": "Integration of the Bootstrap Metronic Theme as TYPO3 Neos Site Package",
-            "time": "2015-04-03 17:39:59"
+            "time": "2015-04-17 18:43:51"
         },
         {
             "name": "psr/log",
@@ -1989,7 +1987,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "26576563a35181eea06717441030c2e68a272acb"
+                "reference": "d96bb08d4d6f609153b83b2da7d97924170720d3"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -2024,7 +2022,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2015-04-08 15:29:54"
+            "time": "2015-04-17 10:55:06"
         },
         {
             "name": "typo3/fluid",
@@ -2032,7 +2030,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Fluid.git",
-                "reference": "f97149f6ad7a0e934cd423cd87867fa63d162d9f"
+                "reference": "defa41b24cea5bd800dc50facec3d9dedfc5a86d"
             },
             "require": {
                 "typo3/flow": "*"
@@ -2048,7 +2046,7 @@
                 "LGPL-3.0+"
             ],
             "description": "Next-Generation Templating Framework for TYPO3 Flow and TYPO3 Neos, also backported to TYPO3 CMS",
-            "time": "2015-04-08 16:19:43"
+            "time": "2015-04-10 09:11:59"
         },
         {
             "name": "typo3/form",
@@ -2154,7 +2152,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Neos.git",
-                "reference": "d95a0a2f65fe660fb9e405e3b4b28d7f73cfa072"
+                "reference": "e2b7a8a23b9d6fb4434c8504b2894b3affae12d0"
             },
             "require": {
                 "typo3/flow": "*",
@@ -2184,7 +2182,7 @@
                 "GPL-3.0+"
             ],
             "description": "The next generation of the popular open-source CMS.",
-            "time": "2015-04-08 18:11:00"
+            "time": "2015-04-17 18:10:45"
         },
         {
             "name": "typo3/neos-kickstarter",
@@ -2290,7 +2288,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Setup.git",
-                "reference": "83c538e9520f725d7ab8c38c19d09206b3e495a1"
+                "reference": "f1fe3b368290c742cca2498ebb09aa25edb326eb"
             },
             "require": {
                 "typo3/flow": "*",
@@ -2308,7 +2306,7 @@
                 "LGPL-3.0+"
             ],
             "description": "An extensible setup tool for TYPO3 Flow based applications",
-            "time": "2015-03-10 10:32:48"
+            "time": "2015-04-15 14:02:23"
         },
         {
             "name": "typo3/swiftmailer",
@@ -2366,7 +2364,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.TYPO3CR.git",
-                "reference": "d63c602c715a274c201bc8ad8a2244270cab3587"
+                "reference": "3cb94c3faee6f3840567042f76c50de46cac0c9f"
             },
             "require": {
                 "gedmo/doctrine-extensions": "2.3.*",
@@ -2384,7 +2382,7 @@
                 "GPL-3.0+"
             ],
             "description": "Content repository based on TYPO3 Flow, specifically made for TYPO3 Neos.",
-            "time": "2015-04-08 17:01:23"
+            "time": "2015-04-16 17:07:06"
         },
         {
             "name": "typo3/typoscript",
@@ -2392,7 +2390,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.TypoScript.git",
-                "reference": "a0bf052ecb988a19c73ce777c6377ff371b126ba"
+                "reference": "797589213561c71d6c320ac0d54329bce0c268fa"
             },
             "require": {
                 "typo3/eel": "*",
@@ -2409,7 +2407,7 @@
                 "GPL-3.0+"
             ],
             "description": "TypoScript is a hierarchical, prototype based processing language",
-            "time": "2015-03-25 14:04:08"
+            "time": "2015-04-09 15:05:53"
         }
     ],
     "packages-dev": [
@@ -2646,16 +2644,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "2.0.15",
+            "version": "2.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "34cc484af1ca149188d0d9e91412191e398e0b67"
+                "reference": "934fd03eb6840508231a7f73eb8940cf32c3b66c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/34cc484af1ca149188d0d9e91412191e398e0b67",
-                "reference": "34cc484af1ca149188d0d9e91412191e398e0b67",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/934fd03eb6840508231a7f73eb8940cf32c3b66c",
+                "reference": "934fd03eb6840508231a7f73eb8940cf32c3b66c",
                 "shasum": ""
             },
             "require": {
@@ -2704,7 +2702,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-01-24 10:06:35"
+            "time": "2015-04-11 04:35:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -3392,7 +3390,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Flow/BuildEssentials.git",
-                "reference": "2818614b397d3108fe0f460a98992fa458d2337a"
+                "reference": "9ff70043ff6fa42b755ef2e8be3a9922201ec635"
             },
             "require": {
                 "composer/installers": "~1.0.2"
@@ -3406,7 +3404,7 @@
                 "LGPL-3.0+"
             ],
             "description": "TYPO3 Flow Build Toolchain Essentials",
-            "time": "2015-03-03 13:20:59"
+            "time": "2015-04-15 07:28:01"
         }
     ],
     "aliases": [],
@@ -3415,6 +3413,7 @@
         "typo3/neos": 20,
         "typo3/neos-nodetypes": 20,
         "typo3/neos-kickstarter": 20,
+        "flowpack/snippets": 20,
         "mapseven/neos-metronic": 20,
         "flowpack/neos-frontendusermanager": 20,
         "doctrine/migrations": 20,
@@ -3431,7 +3430,6 @@
         "typo3/setup": 20,
         "typo3/typo3cr": 20,
         "typo3/typoscript": 20,
-        "flowpack/snippets": 20,
         "typo3/buildessentials": 20,
         "flowpack/behat": 20
     },
