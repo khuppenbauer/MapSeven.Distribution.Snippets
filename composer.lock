@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/khuppenbauer/Flowpack.Neos.FrontendUserManager.git",
-                "reference": "ebae848c2a937fb018a25b9a109172dd352876bf"
+                "reference": "beeffe42575fb632164b59e03cd5f6868656c47a"
             },
             "require": {
                 "typo3/neos": "*"
@@ -24,7 +24,7 @@
                 }
             },
             "description": "Simple Frontend User Management with Registration and Login",
-            "time": "2015-04-19 20:59:40"
+            "time": "2015-04-21 19:58:05"
         },
         {
             "name": "behat/transliterator",
@@ -636,12 +636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations.git",
-                "reference": "efb77c10dfb75485998a843154bbc44d8124c4d1"
+                "reference": "f623eff82515f55d18199706851895ced831cba0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/migrations/zipball/efb77c10dfb75485998a843154bbc44d8124c4d1",
-                "reference": "efb77c10dfb75485998a843154bbc44d8124c4d1",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/f623eff82515f55d18199706851895ced831cba0",
+                "reference": "f623eff82515f55d18199706851895ced831cba0",
                 "shasum": ""
             },
             "require": {
@@ -649,6 +649,8 @@
                 "php": ">=5.3.2"
             },
             "require-dev": {
+                "doctrine/orm": "2.*",
+                "phpunit/phpunit": "~4.0",
                 "symfony/console": "2.*",
                 "symfony/yaml": "2.*"
             },
@@ -686,7 +688,7 @@
                 "database",
                 "migrations"
             ],
-            "time": "2015-04-07 10:34:31"
+            "time": "2015-05-01 16:37:18"
         },
         {
             "name": "doctrine/orm",
@@ -883,12 +885,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/khuppenbauer/Flowpack.Snippets.git",
-                "reference": "fb41412f22a75cdacbbc05f325b921059068de4e"
+                "reference": "6461b30b3d744c08c499eb42cb647a0545d1d865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/khuppenbauer/Flowpack.Snippets/zipball/fb41412f22a75cdacbbc05f325b921059068de4e",
-                "reference": "fb41412f22a75cdacbbc05f325b921059068de4e",
+                "url": "https://api.github.com/repos/khuppenbauer/Flowpack.Snippets/zipball/6461b30b3d744c08c499eb42cb647a0545d1d865",
+                "reference": "6461b30b3d744c08c499eb42cb647a0545d1d865",
                 "shasum": ""
             },
             "require": {
@@ -908,7 +910,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "TYPO3 Neos Plugin for Snippets",
-            "time": "2015-04-19 21:44:35"
+            "time": "2015-05-02 21:23:54"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -1210,7 +1212,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/khuppenbauer/MapSeven.Neos.Metronic.git",
-                "reference": "a4b05b1bd86581793debb6937f65d0e98045fbd5"
+                "reference": "93dc69622e39f344de17a72ecee60b12ed7e977d"
             },
             "require": {
                 "typo3/neos": "*",
@@ -1223,7 +1225,7 @@
                 }
             },
             "description": "Integration of the Bootstrap Metronic Theme as TYPO3 Neos Site Package",
-            "time": "2015-04-19 21:24:02"
+            "time": "2015-05-02 21:48:11"
         },
         {
             "name": "psr/log",
@@ -1731,16 +1733,16 @@
         },
         {
             "name": "tecnick.com/tcpdf",
-            "version": "6.2.6",
+            "version": "6.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "a2e8f5b505a7a14a4ed960313c4baf699fd1f4bb"
+                "reference": "3dee9e7f3a414875fd1d9f4f1dfc2433493a86d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/a2e8f5b505a7a14a4ed960313c4baf699fd1f4bb",
-                "reference": "a2e8f5b505a7a14a4ed960313c4baf699fd1f4bb",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/3dee9e7f3a414875fd1d9f4f1dfc2433493a86d2",
+                "reference": "3dee9e7f3a414875fd1d9f4f1dfc2433493a86d2",
                 "shasum": ""
             },
             "require": {
@@ -1790,18 +1792,18 @@
                 "pdf417",
                 "qrcode"
             ],
-            "time": "2015-01-28 18:51:40"
+            "time": "2015-04-29 16:13:58"
         },
         {
             "name": "typo3/eel",
-            "version": "dev-master",
+            "version": "3.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Eel.git",
-                "reference": "4d067ccf008fbc2ca667b60730676b1fe04eba9c"
+                "reference": "ae73f2404e699cf11177eab0e069a98baa57fba7"
             },
             "require": {
-                "typo3/flow": "*"
+                "typo3/flow": "~3.0.0"
             },
             "type": "typo3-flow-framework",
             "autoload": {
@@ -1814,31 +1816,31 @@
                 "LGPL-3.0+"
             ],
             "description": "The Embedded Expression Language (Eel) is a building block for creating Domain Specific Languages",
-            "time": "2015-02-26 09:18:23"
+            "time": "2015-04-28 15:44:29"
         },
         {
             "name": "typo3/flow",
-            "version": "dev-master",
+            "version": "3.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "6acc04c79f129d86493663d012145907a5f0fd25"
+                "reference": "bac29ab99693580cdde0628ab351f2742ff082a6"
             },
             "require": {
                 "composer/installers": "~1.0.2",
                 "doctrine/migrations": "dev-master",
-                "doctrine/orm": "2.4.*",
+                "doctrine/orm": "~2.4.0",
                 "ext-json": ">=1.2.0",
                 "ext-mbstring": "*",
                 "ext-reflection": "*",
                 "ext-spl": "*",
                 "ext-zlib": "*",
                 "php": ">=5.5.0",
-                "symfony/console": "2.*",
-                "symfony/dom-crawler": "2.5.*",
-                "symfony/yaml": "2.5.*",
-                "typo3/eel": "*",
-                "typo3/fluid": "*"
+                "symfony/console": "~2.0",
+                "symfony/dom-crawler": "~2.5.0",
+                "symfony/yaml": "~2.5.0",
+                "typo3/eel": "~3.0.0",
+                "typo3/fluid": "~3.0.0"
             },
             "suggest": {
                 "doctrine/data-fixtures": "To manage and execute the loading of data fixtures for the Doctrine ORM or ODM",
@@ -1857,18 +1859,18 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2015-04-19 06:17:30"
+            "time": "2015-04-30 07:39:14"
         },
         {
             "name": "typo3/fluid",
-            "version": "dev-master",
+            "version": "3.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Fluid.git",
-                "reference": "defa41b24cea5bd800dc50facec3d9dedfc5a86d"
+                "reference": "15dc7382b9b97e17d9bfd86743a7695052dc8dc4"
             },
             "require": {
-                "typo3/flow": "*"
+                "typo3/flow": "~3.0.0"
             },
             "type": "typo3-flow-framework",
             "autoload": {
@@ -1881,7 +1883,7 @@
                 "LGPL-3.0+"
             ],
             "description": "Next-Generation Templating Framework for TYPO3 Flow and TYPO3 Neos, also backported to TYPO3 CMS",
-            "time": "2015-04-10 09:11:59"
+            "time": "2015-04-28 15:44:27"
         },
         {
             "name": "typo3/form",
@@ -1889,7 +1891,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Form.git",
-                "reference": "8db354c0a0de4b7d44b9c0427d2340aea38fa116"
+                "reference": "862764f0ef9ef31b60c515dc46455a193104bc9f"
             },
             "require": {
                 "typo3/flow": "*"
@@ -1905,7 +1907,7 @@
                 "LGPL-3.0+"
             ],
             "description": "Extensible and flexible API for building web forms",
-            "time": "2015-04-02 08:03:33"
+            "time": "2015-04-30 13:28:50"
         },
         {
             "name": "typo3/imagine",
@@ -1937,7 +1939,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Kickstart.git",
-                "reference": "c8234b213e0b821072cedd1a4981a555b66c099c"
+                "reference": "a100b42d92dd5a6ec33cdd60b202154ad209460d"
             },
             "require": {
                 "typo3/flow": "*"
@@ -1953,15 +1955,15 @@
                 "LGPL-3.0+"
             ],
             "description": "A simple generator for controller and views.",
-            "time": "2015-02-26 07:34:37"
+            "time": "2015-04-15 15:38:48"
         },
         {
             "name": "typo3/media",
-            "version": "dev-master",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Media.git",
-                "reference": "1a9b1363e2f8de44a44aa0947885039ea3f36786"
+                "reference": "2544ecde63ee9e8d6d38c6bc3f65816dda8e71b5"
             },
             "require": {
                 "php": ">=5.4.0",
@@ -1979,7 +1981,7 @@
                 "GPL-3.0+"
             ],
             "description": "The Media package",
-            "time": "2015-03-26 11:15:46"
+            "time": "2015-05-01 18:13:53"
         },
         {
             "name": "typo3/neos",
@@ -1987,16 +1989,16 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Neos.git",
-                "reference": "d921bfe5c7875ac16f36b5f96e146835740117a9"
+                "reference": "68d1b8673142e3b53d87f06a53549abc48fb42b3"
             },
             "require": {
-                "typo3/flow": "*",
-                "typo3/media": "*",
-                "typo3/party": "*",
+                "typo3/flow": "~3.0.0",
+                "typo3/media": "~2.0.0",
+                "typo3/party": "~3.0.0",
                 "typo3/setup": "*",
                 "typo3/twitter-bootstrap": "*",
-                "typo3/typo3cr": "*",
-                "typo3/typoscript": "*"
+                "typo3/typo3cr": "~2.0.0",
+                "typo3/typoscript": "~2.0.0"
             },
             "suggest": {
                 "typo3/neos-kickstarter": "Helps with creating new packages for TYPO3 Neos."
@@ -2017,7 +2019,7 @@
                 "GPL-3.0+"
             ],
             "description": "The next generation of the popular open-source CMS.",
-            "time": "2015-04-19 18:10:59"
+            "time": "2015-05-02 18:10:56"
         },
         {
             "name": "typo3/neos-kickstarter",
@@ -2051,7 +2053,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Neos.NodeTypes.git",
-                "reference": "6c65a1c177de92b581f8c48b7e3f5180160fb08f"
+                "reference": "add18f8b8e0ae42ebffb6757493dc0b22ae0ba8e"
             },
             "require": {
                 "typo3/neos": "*"
@@ -2067,7 +2069,7 @@
                 "GPL-3.0+"
             ],
             "description": "Node type configuration for TYPO3 Neos",
-            "time": "2015-03-26 10:17:23"
+            "time": "2015-04-30 14:19:16"
         },
         {
             "name": "typo3/neos-seo",
@@ -2095,14 +2097,14 @@
         },
         {
             "name": "typo3/party",
-            "version": "dev-master",
+            "version": "3.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Party.git",
-                "reference": "50a99d49c3fce2969a35c5aa9ddf3acee5fc5676"
+                "reference": "2235b23774a8b7b9cab4d46fc1c55bff09ca504a"
             },
             "require": {
-                "typo3/flow": "*"
+                "typo3/flow": "3.0.*"
             },
             "type": "typo3-flow-package",
             "autoload": {
@@ -2115,7 +2117,7 @@
                 "LGPL-3.0+"
             ],
             "description": "A PHP implementation of the OASIS Customer Information Quality (CIQ) XML Standard.",
-            "time": "2015-03-10 11:48:50"
+            "time": "2015-03-16 08:25:10"
         },
         {
             "name": "typo3/setup",
@@ -2123,7 +2125,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Setup.git",
-                "reference": "f1fe3b368290c742cca2498ebb09aa25edb326eb"
+                "reference": "8b49b52cd27330948a77845acfb0a8c758df6af0"
             },
             "require": {
                 "typo3/flow": "*",
@@ -2141,7 +2143,7 @@
                 "LGPL-3.0+"
             ],
             "description": "An extensible setup tool for TYPO3 Flow based applications",
-            "time": "2015-04-15 14:02:23"
+            "time": "2015-04-30 17:05:44"
         },
         {
             "name": "typo3/swiftmailer",
@@ -2195,16 +2197,16 @@
         },
         {
             "name": "typo3/typo3cr",
-            "version": "dev-master",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.TYPO3CR.git",
-                "reference": "3cb94c3faee6f3840567042f76c50de46cac0c9f"
+                "reference": "d3f66451002a369c5c0cf1ea5b32cb7349da0da4"
             },
             "require": {
                 "gedmo/doctrine-extensions": "2.3.*",
-                "typo3/eel": "*",
-                "typo3/flow": "*"
+                "typo3/eel": "~3.0.0",
+                "typo3/flow": "~3.0.0"
             },
             "type": "typo3-flow-package",
             "autoload": {
@@ -2217,19 +2219,19 @@
                 "GPL-3.0+"
             ],
             "description": "Content repository based on TYPO3 Flow, specifically made for TYPO3 Neos.",
-            "time": "2015-04-16 17:07:06"
+            "time": "2015-04-30 10:51:27"
         },
         {
             "name": "typo3/typoscript",
-            "version": "dev-master",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.TypoScript.git",
-                "reference": "84e35037e3da26d9747bd6277047da210765a155"
+                "reference": "0395376e45142716f1caa807e9d411b07123169c"
             },
             "require": {
-                "typo3/eel": "*",
-                "typo3/flow": "*"
+                "typo3/eel": "~3.0.0",
+                "typo3/flow": "~3.0.0"
             },
             "type": "typo3-flow-package",
             "autoload": {
@@ -2242,7 +2244,7 @@
                 "GPL-3.0+"
             ],
             "description": "TypoScript is a hierarchical, prototype based processing language",
-            "time": "2015-04-19 10:03:24"
+            "time": "2015-04-28 16:45:39"
         }
     ],
     "packages-dev": [
@@ -2419,16 +2421,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "1.4.0",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "8724cd239f8ef4c046f55a3b18b4d91cc7f3e4c5"
+                "reference": "3132b1f44c7bf2ec4c7eb2d3cb78fdeca760d373"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/8724cd239f8ef4c046f55a3b18b4d91cc7f3e4c5",
-                "reference": "8724cd239f8ef4c046f55a3b18b4d91cc7f3e4c5",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/3132b1f44c7bf2ec4c7eb2d3cb78fdeca760d373",
+                "reference": "3132b1f44c7bf2ec4c7eb2d3cb78fdeca760d373",
                 "shasum": ""
             },
             "require": {
@@ -2475,7 +2477,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2015-03-27 19:31:25"
+            "time": "2015-04-27 22:15:08"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -3225,7 +3227,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Flow/BuildEssentials.git",
-                "reference": "9ff70043ff6fa42b755ef2e8be3a9922201ec635"
+                "reference": "b4baf61f0e3ee881e2bef5130238061609dc9a28"
             },
             "require": {
                 "composer/installers": "~1.0.2"
@@ -3239,7 +3241,7 @@
                 "LGPL-3.0+"
             ],
             "description": "TYPO3 Flow Build Toolchain Essentials",
-            "time": "2015-04-15 07:28:01"
+            "time": "2015-04-28 15:44:50"
         }
     ],
     "aliases": [],
