@@ -636,12 +636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations.git",
-                "reference": "f623eff82515f55d18199706851895ced831cba0"
+                "reference": "a4f14d3a3d397104e557ec65d1a4e43bb86e4ddf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/migrations/zipball/f623eff82515f55d18199706851895ced831cba0",
-                "reference": "f623eff82515f55d18199706851895ced831cba0",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/a4f14d3a3d397104e557ec65d1a4e43bb86e4ddf",
+                "reference": "a4f14d3a3d397104e557ec65d1a4e43bb86e4ddf",
                 "shasum": ""
             },
             "require": {
@@ -688,7 +688,7 @@
                 "database",
                 "migrations"
             ],
-            "time": "2015-05-01 16:37:18"
+            "time": "2015-05-02 06:20:23"
         },
         {
             "name": "doctrine/orm",
@@ -885,12 +885,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/khuppenbauer/Flowpack.Snippets.git",
-                "reference": "6461b30b3d744c08c499eb42cb647a0545d1d865"
+                "reference": "0e28d218aaec6f5c7f1f57234487e7e8eccd046e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/khuppenbauer/Flowpack.Snippets/zipball/6461b30b3d744c08c499eb42cb647a0545d1d865",
-                "reference": "6461b30b3d744c08c499eb42cb647a0545d1d865",
+                "url": "https://api.github.com/repos/khuppenbauer/Flowpack.Snippets/zipball/0e28d218aaec6f5c7f1f57234487e7e8eccd046e",
+                "reference": "0e28d218aaec6f5c7f1f57234487e7e8eccd046e",
                 "shasum": ""
             },
             "require": {
@@ -910,7 +910,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "TYPO3 Neos Plugin for Snippets",
-            "time": "2015-05-02 21:23:54"
+            "time": "2015-05-03 08:54:38"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -1212,7 +1212,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/khuppenbauer/MapSeven.Neos.Metronic.git",
-                "reference": "93dc69622e39f344de17a72ecee60b12ed7e977d"
+                "reference": "57bd209fcbe230e67ab0f2103c79347c353f980b"
             },
             "require": {
                 "typo3/neos": "*",
@@ -1225,7 +1225,7 @@
                 }
             },
             "description": "Integration of the Bootstrap Metronic Theme as TYPO3 Neos Site Package",
-            "time": "2015-05-02 21:48:11"
+            "time": "2015-05-03 10:34:23"
         },
         {
             "name": "psr/log",
