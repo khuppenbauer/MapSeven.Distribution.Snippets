@@ -885,12 +885,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/khuppenbauer/Flowpack.Snippets.git",
-                "reference": "0e28d218aaec6f5c7f1f57234487e7e8eccd046e"
+                "reference": "af7385d5fbab74d43fc832e944ab4e8f4dbaa2ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/khuppenbauer/Flowpack.Snippets/zipball/0e28d218aaec6f5c7f1f57234487e7e8eccd046e",
-                "reference": "0e28d218aaec6f5c7f1f57234487e7e8eccd046e",
+                "url": "https://api.github.com/repos/khuppenbauer/Flowpack.Snippets/zipball/af7385d5fbab74d43fc832e944ab4e8f4dbaa2ad",
+                "reference": "af7385d5fbab74d43fc832e944ab4e8f4dbaa2ad",
                 "shasum": ""
             },
             "require": {
@@ -910,7 +910,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "TYPO3 Neos Plugin for Snippets",
-            "time": "2015-05-03 08:54:38"
+            "time": "2015-05-04 18:16:39"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -1212,7 +1212,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/khuppenbauer/MapSeven.Neos.Metronic.git",
-                "reference": "57bd209fcbe230e67ab0f2103c79347c353f980b"
+                "reference": "cce62de66fed05b700d48296865284d5a8c76e52"
             },
             "require": {
                 "typo3/neos": "*",
@@ -1225,7 +1225,7 @@
                 }
             },
             "description": "Integration of the Bootstrap Metronic Theme as TYPO3 Neos Site Package",
-            "time": "2015-05-03 10:34:23"
+            "time": "2015-05-04 05:51:56"
         },
         {
             "name": "psr/log",
@@ -1963,7 +1963,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Media.git",
-                "reference": "2544ecde63ee9e8d6d38c6bc3f65816dda8e71b5"
+                "reference": "9951644de99cc9fda08a4626b417294727227258"
             },
             "require": {
                 "php": ">=5.4.0",
@@ -1981,7 +1981,7 @@
                 "GPL-3.0+"
             ],
             "description": "The Media package",
-            "time": "2015-05-01 18:13:53"
+            "time": "2015-05-03 12:30:08"
         },
         {
             "name": "typo3/neos",
@@ -1989,7 +1989,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.Neos.git",
-                "reference": "68d1b8673142e3b53d87f06a53549abc48fb42b3"
+                "reference": "1c4a9b83735b67070831dd61bb5a2f0d024dd6e5"
             },
             "require": {
                 "typo3/flow": "~3.0.0",
@@ -2019,7 +2019,7 @@
                 "GPL-3.0+"
             ],
             "description": "The next generation of the popular open-source CMS.",
-            "time": "2015-05-02 18:10:56"
+            "time": "2015-05-04 18:10:52"
         },
         {
             "name": "typo3/neos-kickstarter",
@@ -2201,7 +2201,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.typo3.org/Packages/TYPO3.TYPO3CR.git",
-                "reference": "d3f66451002a369c5c0cf1ea5b32cb7349da0da4"
+                "reference": "082e5ec00b947677f8c7e7a8c3e228d3e4f61320"
             },
             "require": {
                 "gedmo/doctrine-extensions": "2.3.*",
@@ -2219,7 +2219,7 @@
                 "GPL-3.0+"
             ],
             "description": "Content repository based on TYPO3 Flow, specifically made for TYPO3 Neos.",
-            "time": "2015-04-30 10:51:27"
+            "time": "2015-05-02 22:49:43"
         },
         {
             "name": "typo3/typoscript",
